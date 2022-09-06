@@ -1,0 +1,229 @@
+.user-row {
+    display: table;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 0px 30px 5px grey;
+    width: 59%;
+    height:15px;
+    border-radius: 13px;
+    box-shadow: inset;
+    background-color: rgb(235, 235, 235);
+    padding:5px;
+    margin:25px;
+   
+    
+    font-size: 16px;
+    
+    font-family: "Poppins", sans-serif;
+    
+  }
+  .user-row:hover{
+    background-color: #263148;
+    color: white;
+  }
+.user-avatar{
+    float: left;
+    margin-right:5px;
+    border-radius: 100px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+  }
+.user-name{
+    float: left;
+    margin-right: 20px;
+    margin-top: 14px;
+   
+}
+.user-email{
+    float: right;
+    margin-left: 70px;
+    margin-top: 14px;
+  
+}
+.insideMiddle{
+  margin-top: 30px ;
+}
+#profilesheader{
+    margin-left:80px;
+    
+    
+}
+
+.emailheader{
+    margin-left: -20px;
+   
+    
+     
+}
+.banButton{
+    width: 200px;
+   
+    
+    }
+
+.buttoncontainer{
+    margin-top: -85px;
+    margin-left: 720px;
+}
+.Complaincard{
+  margin-left: 380px;
+  width: 45%;
+    height: 700px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.userimageComplain{
+  width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    margin: 10px;
+    margin-top: -20px;
+}
+.usernameComplain{
+  font-size: 18px;
+    margin-left:85px;
+    margin-top: -55px;
+    font-weight: bold;
+}
+.dateComplain{
+  font-size: 12px;
+  margin-left:85px;
+ 
+}
+.Complainimage{
+border-radius: 5px;
+margin-left: 10px;
+width: 600px;
+
+min-width: 400px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.suggestionimage{
+  border-radius: 5px;
+margin-left: 10px;
+width: 600px;
+
+min-width: 400px;
+margin-top: 45px;
+margin-bottom: 15px;
+}
+.ComplainType{
+font-size: 20px;
+font-weight: bold;
+margin-left:10px ;
+}
+.Complaindescription{
+margin-left: 30px;
+margin-bottom: 10px;
+font-size: 19px;
+}
+#bg-color{
+  width: 100%;
+  height: 835px;/* 745px; */
+  background-image: url("../assets/img/bg.svg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#container{
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+  height: 60%;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+#sign-sec{
+  width:50%;
+  height: 100%;
+  background-color: #095DFE;
+}
+#h1{
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin:  60px 150px; 
+  text-align: center;
+color: #333;
+}
+#input{
+  width: 280px;
+  margin:  50px 230px;
+  margin-bottom: 40px;
+}
+input{
+  margin: 10px;
+  height: 42px;
+  width: 200px;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  border: none;
+  background-color: #eee;
+  padding: 8px 5px;
+  
+}
+input:focus {
+  outline: none; 
+  border: 2px solid #095DFE;
+}
+#mdp{
+  color: #333;
+font-size: 14px;
+text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#login-btn{
+  font-family: "Poppins", sans-serif;
+  background-color: #095DFE;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 3% 40% ;
+  cursor: pointer;
+  color:white;
+}
+#login-btn:hover{
+  background-color: #0b2d6e;
+ transition: 1s ease;
+}
+#mail{
+  margin-bottom:10px;
+  width: 250px;
+}
+#pwd{
+  margin-bottom:10px;
+  width: 250px;
+}
+#localisation{
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #0b2d6e;
+  padding: 5px;
+  font-size: x-large;
+  background-color: #263148;
+  color: white;
+}
+#localisation:hover{
+  background-color: #113f96;
+}
+#deletecomplain{
+  margin-left: 560px;
+  margin-bottom: -30px;
+  width: 50px;
+  border:2px solid black
+}
+#deletecomplain:hover{
+  border-color: red;
+  background-color: rgb(245, 219, 219);
+}
